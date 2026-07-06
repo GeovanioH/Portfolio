@@ -505,7 +505,7 @@ function startGlitch() {
 ═══════════════════════════════════════════════════════════ */
 (function initMarquee() {
   const track = document.getElementById('marqueeTrack');
-  const techs = ['HTML','CSS','JavaScript','React.js','TypeScript','Python','SQL Server','Supabase','Make','n8n','Git & GitHub','Netlify','Groq API','Claude API','REST API','TailwindCSS','Figma','Flutter'];
+  const techs = ['HTML','CSS','JavaScript','React.js','TypeScript','Python','SQL Server','Supabase','Make','n8n','Git & GitHub','Netlify','Groq API','Claude API','REST API','TailwindCSS','Figma','Flutter','Marketing Digital','Meta Ads','TikTok Ads','Tunnels de Vente','RAG','Fine-tuning','Neon','Gemini API','FastAPI','Render','Chrome Extension','WhatsApp API','Google Analytics','LangChain','Pinecone','Hugging Face'];
   [...techs,...techs].forEach(t => {
     const el = document.createElement('span');
     el.className = 'tech-pill';
